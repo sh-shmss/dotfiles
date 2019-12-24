@@ -65,4 +65,6 @@ let g:netrw_liststyle=3     " tree view
 let g:netrw_list_hide=netrw_gitignore#Hide()
 let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 "
+" <F2> to toggle paste
+set pastetoggle=<F2>
 "
