@@ -662,6 +662,10 @@
         {
             "name": "Machine Learning – HackerEarth Blog",
             "url": "https://www.hackerearth.com/blog/machine-learning/feed"
+        },
+        {
+            "name": "Distill",
+            "url": "https://distill.pub/rss.xml"
         }
     ],
     "tags": {
