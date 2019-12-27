@@ -1,2 +1,2 @@
 # configs
-config files for Vim, etc.
+config files for Vim, neomutt, etc.
