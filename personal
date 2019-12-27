@@ -1,0 +1,14 @@
+# IMAP
+set my_name="Shayan Shamskolahi"
+set imap_user="sh.shmss@gmail.com"
+set imap_pass=$my_pass_personal
+set folder="imaps://imap.gmail.com:993"
+set spoolfile=+INBOX
+set postponed = +[Gmail]/Drafts
+
+# SMTP 
+set from="sh.shmss@gmail.com"
+set use_from = "yes"
+set smtp_pass=$my_pass_personal
+set smtp_url="smtps://sh.shmss@gmail.com@smtp.gmail.com:465"
+set smtp_authenticators = "login"

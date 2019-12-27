@@ -1,0 +1,15 @@
+# IMAP
+set my_name="Shayan Shamskolahi"
+set imap_user="sshamsko@students.kennesaw.edu"
+set imap_pass=$my_pass_school
+set folder="imaps://outlook.office365.com:993"
+set spoolfile=+INBOX
+set postponed = +Drafts
+
+# SMTP
+set from="sshamsko@students.kennesaw.edu"
+set ssl_use_sslv3=yes
+set smtp_pass=$my_pass_school
+#set hostname="students.kennesaw.edu"
+set smtp_url="smtp://sshamsko@students.kennesaw.edu@smtp.office365.com:587"
+
