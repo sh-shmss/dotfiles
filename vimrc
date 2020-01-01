@@ -1,3 +1,5 @@
+" path = /etc/vim/vimrc
+
 " All system-wide defaults are set in $VIMRUNTIME/archlinux.vim (usually just
 " /usr/share/vim/vimfiles/archlinux.vim) and sourced by the call to :runtime
 " you can find below.  If you wish to change any of those settings, you should
