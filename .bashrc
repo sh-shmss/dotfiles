@@ -56,11 +56,15 @@ man() {
     command man "$@"
 }
 
-PS1="$(tput bold)";
-PS1+="$(tput setaf 002)\u$(tput sgr0)";
-PS1+="$(tput bold)";
-PS1+="@$(tput setaf 004)\h$(tput sgr0)";
-PS1+=" \w";
-PS1+="$(tput setaf 002) $ $(tput sgr0)";
+PS1="\[$(tput bold)\]";
+PS1+="\[$(tput setaf 002)\]\u";
+PS1+="\[$(tput sgr0)\]";
+PS1+="\[$(tput bold)\]";
+PS1+="\[@$(tput setaf 004)\]\h";
+PS1+="\[$(tput sgr0)\]";
+PS1+="\[ \]\w";
+PS1+="\[$(tput setaf 002)\]"
+PS1+="$ \[$(tput sgr0)\]";
 export PS1;
+
 
